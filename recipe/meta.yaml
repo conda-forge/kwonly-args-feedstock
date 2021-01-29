@@ -18,9 +18,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.4
+    - python >=2.4|>=3.4
   run:
-    - python >=3.4
+    - python >=2.4|>=3.4
 
 test:
   imports:
